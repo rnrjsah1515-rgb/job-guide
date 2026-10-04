@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>자격증 기반 공고 길잡이</title>
+<meta name="description" content="공공기관 인턴과 채용 공고 중 내 자격증, 전공, 경험을 우대하는 공고를 먼저 보여 주는 비영리 웹 서비스입니다."/>
+<style>
+  :root{
+    --ink:#2A2A28; --ink-soft:#4C4D59; --paper:#F3F3F2; --card:#FFFFFF; --line:#E4E3E0; --hl:#EBFF2C;
+    --font:'Pretendard','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);line-height:1.65;word-break:keep-all;}
+  .wrap{max-width:760px;margin:0 auto;padding:64px 16px 80px;}
+  .badge{display:inline-block;background:var(--hl);font-weight:700;font-size:13px;padding:3px 10px;border-radius:6px;}
+  h1{font-size:36px;line-height:1.2;margin:16px 0 0;letter-spacing:-0.02em;}
+  .lead{font-size:19px;color:var(--ink-soft);margin:16px 0 0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-top:28px;}
+  h2{font-size:15px;color:var(--ink-soft);margin:0 0 10px;}
+  ol{margin:0;padding-left:20px;} li{margin:6px 0;}
+  footer{margin-top:40px;font-size:13px;color:var(--ink-soft);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">준비 중</span>
+  <h1>자격증 기반 공고 길잡이</h1>
+  <p class="lead">공공기관 인턴과 채용 공고 중에서, 내 자격증, 전공, 경험을 우대하는 공고를 먼저 보여 주는 비영리 웹 서비스입니다.</p>
+
+  <div class="card">
+    <h2>이렇게 씁니다</h2>
+    <ol>
+      <li>자격증, 전공, 경험을 적고 고용형태(인턴, 정규직, 계약직)를 고릅니다</li>
+      <li>"우대 공고 찾기"를 누릅니다</li>
+      <li>마감 전 공고 중 우대 조건에 맞는 공고가 맨 위에 "우대" 표시와 함께 보입니다</li>
+      <li>공고를 누르면 원문 공고 페이지로 이동합니다</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>쓰는 자료</h2>
+    공공데이터포털의 공공기관 채용정보 조회서비스(잡알리오)를 이용할 예정입니다. 화면에 자료 출처를 표시합니다.
+  </div>
+
+  <footer>교육 과정 실습 프로젝트 · 비영리</footer>
+</div>
+</body>
+</html>

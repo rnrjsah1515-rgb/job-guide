@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+pm-04-prd/
+node_modules/
+.vercel/
